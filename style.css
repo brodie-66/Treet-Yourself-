@@ -1,0 +1,100 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background-color: skyblue;
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    color: white;
+}
+
+header nav a {
+    margin: 0 1rem;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 1rem;
+}
+
+main h2, main h3 {
+    color: #3c763d;
+}
+
+.dropdown {
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    background: #f7f7f7;
+    display: none;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+footer a {
+    color: skyblue;
+    text-decoration: none;
+}
+.sub-titel {
+	text-decoration: underline;
+	
+}
+
+#cost-calculator {
+    margin-top: 2rem;
+    padding: 1rem;
+    background: #f7f7f7;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#cost-calculator h2 {
+    cursor: pointer;
+    color: #3c763d;
+    margin: 0;
+    padding: 0.5rem;
+    border-bottom: 2px solid #3c763d;
+    display: inline-block;
+}
+
+#cost-calculator h2:hover {
+    text-decoration: underline;
+}
+
+#cost-calculator div {
+    margin-bottom: 1rem;
+}
+
+#cost-calculator input[type="radio"] {
+    margin-right: 0.5rem;
+}
+
+#cost-calculator label {
+    font-weight: bold;
+}
+
+#total-cost {
+    font-weight: bold;
+    color: #3c763d;
+    font-size: 1.2rem;
+}
+

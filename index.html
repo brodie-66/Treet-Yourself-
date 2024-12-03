@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treet Yourself Contracting</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Treet Yourself Contracting</h1>
+        <nav>
+            <a href="#our-story">Our Story</a>
+            <a href="#what-we-do">What We Do</a>
+            <a href="#contact">Get in Touch</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Overview Section -->
+        <section id="overview">
+            <h2 class="sub-titel">Overview</h2>
+            <p>
+                Treet Yourself Contracting is a YES tree planting company specializing in planting large-scale native trees for farmers
+                and large outdoor spaces. We handle all the hassle of organizing, sourcing, and planting for you. Using cutting-edge
+                technology and AI tools, we bring you the best quality and let you visualize the completed project.
+            </p>
+        </section>
+
+        <!-- What We Do Section -->
+        <section id="what-we-do">
+            <h2 class="sub-titel">What We Do</h2>
+            <article>
+                <h3>Prepping</h3>
+                <div class="dropdown">
+                    <p>We visit the site to plan the project, gather data on soil type and wind conditions, and identify the best trees.</p>
+                    <p>Using AI imaging, we show you how the project will look when completed, allowing amendments to fit your vision.</p>
+                    <p>We pre-spray the site to optimize tree survival.</p>
+                </div>
+            </article>
+
+            <article>
+                <h3>Planting</h3>
+                <div class="dropdown">
+                    <p>We organize the trees and protectors, schedule a suitable time, and deploy our crew of qualified planters to get the job done.</p>
+                </div>
+            </article>
+
+            <article>
+                <h3>Preserving</h3>
+                <div class="dropdown">
+                    <p>We follow up after planting to ensure satisfaction and return after six months to monitor tree growth.</p>
+                    <p>Subscribe to a long-term follow-up plan at a fixed rate of $4.00 per tree plus travel costs.</p>
+                </div>
+            </article>
+        </section>
+
+        <!-- Types of Planting Section -->
+        <section>
+            <h2 class="sub-titel">Types of Planting We Cover</h2>
+            <article>
+                <h3>Riparian Strips</h3>
+                <div class="dropdown">
+                    <p>Lorem ipsum dolor sit amet...</p>
+                </div>
+            </article>
+            <article>
+                <h3>Shelter Belts</h3>
+                <div class="dropdown">
+                    <p>Lorem ipsum dolor sit amet...</p>
+                </div>
+            </article>
+            <article>
+                <h3>Landscapes</h3>
+                <div class="dropdown">
+                    <p>Lorem ipsum dolor sit amet...</p>
+                </div>
+            </article>
+            <article>
+                <h3>Native Reformation</h3>
+                <div class="dropdown">
+                    <p>Lorem ipsum dolor sit amet...</p>
+                </div>
+            </article>
+        </section>
+
+        <!-- Our Story Section -->
+        <section id="our-story">
+            <h2 class="sub-titel">Our Story</h2>
+            <div class="dropdown">
+                <p>Lorem ipsum dolor sit amet...</p>
+            </div>
+        </section>
+    </main>
+	
+	               <!-- Cost Calculator Section -->
+        <section id="cost-calculator">
+            <h2 onclick="toggleCalculator()">Cost Calculator</h2>
+            <div id="calculator-content" style="display: none;">
+                <div>
+                    <label for="num-trees">Number of Trees:</label>
+                    <input type="number" id="num-trees" placeholder="Enter number of trees" min="1" oninput="calculateCost()" />
+                </div>
+
+                <div>
+                    <label>Who Supplies:</label>
+                    <div>
+                        <input type="radio" id="supply-all" name="supply-option" value="all" checked onclick="calculateCost()" />
+                        <label for="supply-all">We supply everything</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="supply-trees" name="supply-option" value="trees" onclick="calculateCost()" />
+                        <label for="supply-trees">You supply trees</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="supply-protectors" name="supply-option" value="protectors" onclick="calculateCost()" />
+                        <label for="supply-protectors">You supply protectors</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="supply-both" name="supply-option" value="both" onclick="calculateCost()" />
+                        <label for="supply-both">You supply both trees and protectors</label>
+                    </div>
+                </div>
+
+                <p>Total Cost: <span id="total-cost" style="text-decoration: underline;">$0.00</span></p>
+            </div>
+        </section>
+
+
+    <!-- Footer Section -->
+    <footer id="contact">
+        <p>Contact us:</p>
+        <p>Email: <a href="mailto:treetyourselves@gmail.com">treetyourselves@gmail.com</a></p>
+        <p>Facebook: <a href="https://www.facebook.com/profile.php?id=61552820380797" target="_blank">Facebook Page</a></p>
+        <p>Phone: 027 340 3120</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
